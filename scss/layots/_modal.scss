@@ -34,9 +34,14 @@
   }
 
   &__btn-close {
+    width: 32px;
+    height: 32px;
     position: absolute;
     top: 40px;
     right: 40px;
+    background-color: var(--color-prymari-light);
+    border-radius: 8px;
+    border: 1px solid var(--color-prymari-dark);
   }
 
   &__form-field {
